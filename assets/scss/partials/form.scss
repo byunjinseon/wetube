@@ -1,0 +1,39 @@
+.form-container {
+  width: 450px;
+  margin: 0 auto;
+  form {
+    padding: 10px;
+    input {
+      margin-top: 10px;
+      width: 100%;
+      height: 30px;
+      border-radius: 6px;
+      border: none;
+      &:fisrt-child {
+        margin-top: 20px;
+      }
+      &[type="submit"] {
+        background-color: $submit;
+      }
+    }
+    textarea {
+      width: 100%;
+      margin-top: 10px;
+      min-height: 100px;
+      resize: none;
+    }
+  }
+  a.form-container__link {
+    display: block;
+    width: 430px;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    background-color: $submit;
+    margin-left: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    border: none;
+  }
+}

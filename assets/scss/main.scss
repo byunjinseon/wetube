@@ -1,0 +1,13 @@
+body {
+  background-color: $grey;
+  width: 100%;
+}
+main {
+  min-height: 70vh;
+  padding-top: 30px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+}

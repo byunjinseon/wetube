@@ -1,0 +1,44 @@
+.videos__container {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  .video__list {
+    display: grid;
+    grid-gap: 20px;
+    .videoBlock {
+      width: 100%;
+      height: 100%;
+      a {
+        width: 100%;
+        position: relative;
+        height: 100%;
+        display: inline-block;
+        video {
+          width: 100%;
+          height: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .video__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 900px) {
+  .video__list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .video__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 350px) {
+  .video__list {
+    grid-template-columns: 1fr;
+  }
+}

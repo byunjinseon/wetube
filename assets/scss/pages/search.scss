@@ -1,0 +1,33 @@
+.search__videos {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  .videoBlock {
+    width: 100%;
+    margin-bottom: 20px;
+
+    a {
+      width: 100%;
+      video {
+        display: inline-block;
+        width: 40%;
+        vertical-align: middle;
+      }
+      .block_info {
+        display: inline-block;
+        padding-left: 20px;
+        vertical-align: middle;
+        h4 {
+          font-size: 22px;
+          margin-bottom: 3px;
+        }
+        h6 {
+          color: $light-black;
+          margin-bottom: 10px;
+        }
+        p {
+        }
+      }
+    }
+  }
+}

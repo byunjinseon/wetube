@@ -46,8 +46,8 @@ const config = {
             // Options similar to the same options in webpackOptions.output
             // both options are optional
             filename: '[name].css'
-        }),
+        })
     ]
 };
 
-module.exports =config;
+module.exports = config;

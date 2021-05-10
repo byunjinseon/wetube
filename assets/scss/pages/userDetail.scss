@@ -1,0 +1,77 @@
+.user-profile {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding-top: 40px;
+  background: #fff;
+  .user-profile__header {
+    text-align: center;
+    img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    h4 {
+      width: 100%;
+      height: 100%;
+      padding: 2px;
+      margin: 20px 0;
+      font-size: 20px;
+      font-weight: bold;
+      color: $black;
+    }
+  }
+  .user-profile__btns {
+    text-align: center;
+    a {
+      display: block;
+      margin: 20px 0;
+      button {
+        padding: 6px 0;
+        width: 150px;
+        border: none;
+        border-radius: 3px;
+        background-color: $red;
+        color: $grey;
+        &:hover {
+          background-color: $dark-red;
+        }
+      }
+    }
+  }
+  .home-videos {
+    display: grid;
+    grid-gap: 20px;
+    .videoBlock {
+      width: 100%;
+      a {
+        width: 100%;
+        video {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .home-videos {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 900px) {
+  .home-videos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .home-videos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 350px) {
+  .home-videos {
+    grid-template-columns: 1fr;
+  }
+}

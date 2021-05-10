@@ -12,7 +12,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    "prettier/prettier":"off",
+    "prettier/prettier":"on",
     "no-console":"off",
     "spaced-comment":"off",
     "no-else-return":"off"
